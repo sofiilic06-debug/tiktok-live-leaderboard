@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Live Gift Leaderboard</title>
+<style>
+body{background:#010b1a;color:#fff;font-family:Arial;margin:0;text-align:center}
+.container{max-width:450px;margin:auto;padding:15px}
+h1{font-size:20px;margin:10px 0}
+.country{display:flex;justify-content:space-between;border-bottom:1px solid #222;padding:6px}
+.flag{font-size:20px}
+.points{font-weight:bold}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🌍 Country Leaderboard</h1>
+  <div id="list"></div>
+  <p style="color:#888;font-size:12px;">Simulacija radi svakih 1s</p>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="client.js"></script>
+</body>
+</html>
