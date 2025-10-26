@@ -1,10 +1,10 @@
 {
   "name": "tiktok-live-leaderboard",
   "version": "1.0.0",
-  "description": "TikTok live leaderboard simulator",
-  "main": "index.js",
+  "description": "TikTok live leaderboard MVP",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
